@@ -66,10 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				40788B2823BF3CAD00BB9C31 /* TSBackgroundFetch.h */,
+				40788B2923BF3CDA00BB9C31 /* TSBackgroundFetch.m */,
 				835318571D52293F005738CD /* RNBackgroundFetch.h */,
 				835318591D52293F005738CD /* RNBackgroundFetch.m */,
 				835318601D522994005738CD /* RNBackgroundFetch+AppDelegate.m */,
-				40788B2923BF3CDA00BB9C31 /* TSBackgroundFetch.m */,
 			);
 			path = RNBackgroundFetch;
 			sourceTree = "<group>";

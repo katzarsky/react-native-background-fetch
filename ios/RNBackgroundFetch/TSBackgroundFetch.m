@@ -193,7 +193,6 @@ static NSString *const TAG = @"TSBackgroundFetch";
             // Give other modules 5 second buffer before we finish.  Other modules may not yet have registed their callback when booted in background
             bootBufferTimer = [NSTimer timerWithTimeInterval:5 target:self selector:@selector(doFinish) userInfo:nil repeats:NO];
             [[NSRunLoop mainRunLoop] addTimer:bootBufferTimer forMode:NSRunLoopCommonModes];
-            
         } else {
             [self doFinish];
         }
