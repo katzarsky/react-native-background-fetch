@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'React'
   s.preserve_paths      = 'docs', 'CHANGELOG.md', 'LICENSE', 'package.json', 'RNBackgroundFetch.ios.js'
-  s.source_files        = 'ios/RNBackgroundFetch/RNBackgroundFetch.h', 'ios/RNBackgroundFetch/RNBackgroundFetch.m', 'ios/RNBackgroundFetch/TSBackgroundFetch.h', 'ios/RNBackgroundFetch/TSBackgroundFetch.m'
+  s.source_files        = 'ios/RNBackgroundFetch/*.{h,m}'
 end
