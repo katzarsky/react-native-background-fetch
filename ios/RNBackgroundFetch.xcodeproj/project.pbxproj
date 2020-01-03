@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40788B2823BF3CAD00BB9C31 /* TSBackgroundFetch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40788B2923BF3CDA00BB9C31 /* TSBackgroundFetch.m */; };
 		40788B2A23BF3CDA00BB9C31 /* TSBackgroundFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 40788B2923BF3CDA00BB9C31 /* TSBackgroundFetch.m */; };
 		835318581D52293F005738CD /* RNBackgroundFetch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 835318571D52293F005738CD /* RNBackgroundFetch.h */; };
 		8353185A1D52293F005738CD /* RNBackgroundFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 835318591D52293F005738CD /* RNBackgroundFetch.m */; };
@@ -20,6 +21,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				835318581D52293F005738CD /* RNBackgroundFetch.h in CopyFiles */,
+				40788B2823BF3CAD00BB9C31 /* TSBackgroundFetch.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
